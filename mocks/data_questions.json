@@ -1,0 +1,2134 @@
+{
+  "data": [
+    {
+      "question": "What is the best approach to show a UI-control only on a desktop and not on mobile device?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Use the standard CSS class sapUiVisibleOnlyOnDesktop",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Use the Device-API to check the environment and call setVisible on the UI-control",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Use the UI control from sap.ui.commons. Those UI-controls are able to handle this automatically",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 0
+    },
+    {
+      "question": "Scenario: A company is deploying multiple SAP Fiori applications to its production environment. They want to ensure a smooth deployment process without any conflicts or issues. ",
+      "answers": [
+        {
+          "text": "SAP Fiori Test Recorder",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Launchpad",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Inspector",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori Designer",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "SAP Transport Management System (TMS)",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 1
+    },
+    {
+      "question": "Which of the following are best practices when developing a SAPUI5 app?\nThere are 4 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Make use of patterns",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Minimize the code in the index.html file",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Describe your app using a set of metadata",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Use an asynchronous model definition in your JavaScript code",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Use the Synchronous Model Definition (SMD) syntax",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 2
+    },
+    {
+      "question": "The SAP Fiori Launchpad serves as a...\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Central entry point to SAP Fiori apps",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Code editor for SAPUI5",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Deployment platform for SAP HANA",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Database management tool",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "question": "What of the following is true for implementing your own renderer?\nThere are 3 correct answer to this question.",
+      "answers": [
+        {
+          "text": "Implement a renderer class derived from sap.ui.core.Renderer in a separate file",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Implement the render function inside the control",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Implement the Renderer using AMD syntax",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Assign a reference to the renderer property of the UI control",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "question": "Which of the following is a key feature of OData in SAPUI5 applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "It does not support batch operations.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "It is a proprietary protocol exclusive to SAP.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "It allows for CRUD operations on data sources.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "It is primarily used for offline data storage.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "question": "Scenario: A developer is tasked with creating a dashboard that provides a quick overview of key performance indicators (KPIs) for a logistics company.",
+      "answers": [
+        {
+          "text": "List Report",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Worklist",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Overview Page",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Object Page",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Analytical List Page",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 6
+    },
+    {
+      "question": "From what control does the sap.m.App control inherits the navigation capabilities?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "sap.m.NavigationContainer",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "sap.m.NavContainer",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "sap.ui.core.NavContainer",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "question": "Which element in the SAPUI5 architecture holds the data in JSON or XML?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "View",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Controller",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Component",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Model",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 8
+    },
+    {
+      "question": "What data sources are available in the SAP Web IDE to add a data source configuration to the manifest.json?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "File System",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Enterprise Service Registry",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Service URL",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Process Integration Platform",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Service Catalog",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 9
+    },
+    {
+      "question": "What are Technical Catalogs used for?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "To store tiles and target mappings by technology per solution area",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "To reference tiles and target mappings according to Segregation of Duties for example a Purchaser, a Buyer and so on",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "As a reference for Business Groups",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "As a reference for Business Catalogs",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 10
+    },
+    {
+      "question": "In the SAP Fiori Launchpad, which component is responsible for defining the set of apps a user can access based on their job functions?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Catalog",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Tile",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Group",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Role",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 11
+    },
+    {
+      "question": "Your customer requests a special create method to enable the creation of the full OData hierarchy. Which OData service method can you use?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "CREATE_BATCH_ENTITY",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "CREATE_STREAM",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "EXECUTE_DEEP_INSERT",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "CREATE_DEEP_ENTITY",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 12
+    },
+    {
+      "question": "What relation is between the model and the controller in the standard MVC implementation?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "The controller sets the model visibility",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "The model notifies the controller about changes",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "The controller modifies the model",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "The model updates the controller",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 13
+    },
+    {
+      "question": "What are the two components of the OData Runtime?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "GW_CORE",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "IW_HANA",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "IW_BEP",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "IW_FND",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 14
+    },
+    {
+      "question": "What is the required content of the Component.js file of an extension project?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "The namespace of the parent app",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "The link to the parent app",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "The controller IDs",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "The customizing section",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 15
+    },
+    {
+      "question": "The CDS annotation @UI.facet is used to:\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create a collection facet, which is displayed as section",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Create a reference under collection facet",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Create a Header Facet",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Create content, like field groups or charts for a Facet",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 16
+    },
+    {
+      "question": "What type of navigation is used in SAP Fiori Launchpad applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Action-based navigation",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Target-based navigation",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Scope-based navigation",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 17
+    },
+    {
+      "question": "Which of the following tools in SAP BTP provides a comprehensive environment for developing, testing, and deploying SAP Fiori applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP Business Application Studio",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Web IDE",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Designer",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP Data Intelligence",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 18
+    },
+    {
+      "question": "SAP Business Application Studio is primarily used for...\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Monitoring network traffic",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Database administration",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Developing and deploying business applications",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Designing Fiori user interfaces",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 19
+    },
+    {
+      "question": "Which of the following extensibility options in SAPUI5 allows for the addition of custom XML fragments to views?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "UI Controller Hooks",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Extension Points",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Custom Controls",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Fragment Extensions",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 20
+    },
+    {
+      "question": "In a standard SAPUI5 project, which file is the Application Descriptor that contains the metadata description of the application?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Neo-app.json",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Manifest.json",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Component.js",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Index.html",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 21
+    },
+    {
+      "question": "What best practices of the following list are best practices for SAPUI?\nThere are 4 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Use synchronous model definition syntax (SMD)",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Minimize the code in the index.html",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Use asynchronous model definition in your JavaScript code",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Describe your app by a set of metadata",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Make use of patterns",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 22
+    },
+    {
+      "question": "Is true to say that the sap.m.App control does not offer responsive behaviour?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "No this is not true, sap.m.App does provide responsive behavior",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "It depends on the SAPUI5 version. From 1.30 on sap.m.App does provide responsive behaviours",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "This is true, the control doesn't provide reponsive behavior",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 23
+    },
+    {
+      "question": "Scenario: An organization wants to group related apps in the SAP Fiori Launchpad for their sales department. Which of the following features of the Launchpad would facilitate this?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Views",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Roles",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Groups",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Worklists",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Catalogs",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 24
+    },
+    {
+      "question": "Which model supports deep inserts?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Resource model",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "JSON model",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "XML model",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "OData model",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 25
+    },
+    {
+      "question": "You are an administrator for your S/4HANA 1809 landscape. You want to disable personalization and themes on the SAP Fiori Launchpad for select users in one client. How can you do this?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_PERS_ON, adjusting the relevant parameter in the target mapping, and assign it to the users by a PFCG role.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_PERS_OFF and assign it to the users by a PFCG role.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_CUS_CONF and assign it to the users by a PFCG role.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_SYS_CONF and assign it to the users by a PFCG role.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 26
+    },
+    {
+      "question": "Which of the following SmartControls in SAP Fiori provides a table with advanced features like variant management and personalization?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SmartTable",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SmartFilterBar",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SmartForm",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SmartLink",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 27
+    },
+    {
+      "question": "What do you configure to import the BUILD prototype in the SAP Web IDE for development?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "The destination in the SAP HANA Cloud Platform",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "The API key in the SAP Web IDE plugin",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "The connection in the SAP HANA Cloud Integration",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "The connection in the SAP HANA Cloud Connector",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 28
+    },
+    {
+      "question": "While testing an SAP Fiori app you discover that a button on the page delivers no response. Which of the following agile pyramid options do you use?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "QUnit",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Sinon",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Mock server",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "OPA",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 29
+    },
+    {
+      "question": "What visibility does a OData Model instance have when created automatically during application start?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Component scope",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Control scope only",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Controller scope only",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "View scope only",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 30
+    },
+    {
+      "question": "For which app type in SAP Fiori do you install the KPI framework?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Transactional app",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Legacy app",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Factsheet app",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Analytical app",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 31
+    },
+    {
+      "question": "What happens if you execute an app that contains the following bootstrap file?\n\tPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "The bootstrap will load and the application will run successfully but without a theme",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "The bootstrap will load and the customer-defined default theme will be used",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "The bootstrap will NOT load and the application will produce an error message that the theme is missing",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "The bootstrap will load and the SAP default theme will be used",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 32
+    },
+    {
+      "question": "What function must be called inside a control renderer to add the control id to the DOM-tree and support eventing?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "writeControlData",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "writIcon",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "write",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "writeClasses",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 33
+    },
+    {
+      "question": "What result do you expect from the de-composition and re-composition phases?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "The prevention of irrelevant data being shown to the user",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "A responsive de-composed design",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "An adaptive and coherent app",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "The break-down of a large transaction",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "A purpose-built app to support personas",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 34
+    },
+    {
+      "question": "In the context of the SAP Fiori Launchpad, what is the primary purpose of a Catalog?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "To store code snippets",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "To group related tiles and apps",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "To manage user profiles",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "To deploy apps to the cloud",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 35
+    },
+    {
+      "question": "In the context of SAP Fiori, which of the following ensures that applications provide a consistent look and feel across different devices and platforms?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Complex design",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Role-based design",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Static design",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Adaptive design",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 36
+    },
+    {
+      "question": "In the context of SAP BTP, which service provides capabilities for extending SAP Cloud solutions?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP BTP Extension Suite",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP BTP Analytics Suite",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP BTP Integration Suite",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP BTP Database Suite",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 37
+    },
+    {
+      "question": "Which of the following is NOT a type of SAP Fiori Element?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "List Report",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Overview Page",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Detail Page",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Object Page",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 38
+    },
+    {
+      "question": "Which of following steps are needed to create an association in CDS and expose it?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Declare an association using \"association to\" statement",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Expose fields in the association by writing each field in projection list",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Declare an association using \"left outer join\" statement",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Expose the association by writing its name in projection list",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 39
+    },
+    {
+      "question": "Which of the following is NOT a key capability of the SAP BTP Integration Suite?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Process integration",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Data intelligence",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Application extension",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "API management",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 40
+    },
+    {
+      "question": "Your customer requires that the SAPUI5 design of all apps reference a specific and consistent look and feel. What do you create?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create a css file using the Web IDE implementing the specific look and feel and reference this css in the bootstrap of all apps",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Create a module using the Web IDE implementing the specific look and feel and reference this module in the bootstrap of all apps",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Create a theme using the Theme Designer implementing the specific look and feel and reference this theme in the bootstrap of all apps",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Create a global JavaScript file using the Web IDE implementing the specific look and feel and reference this file in the bootstrap of all apps",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Create a model using the Web IDE implementing the specific look and feel and reference this model in the bootstrap of all apps",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 41
+    },
+    {
+      "question": "In the context of SAP Fiori deployment, what is the primary purpose of transport requests?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Monitoring application performance",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Transporting changes between systems",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Testing applications",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Debugging applications",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 42
+    },
+    {
+      "question": "Which of the following SmartControls provides visualizations like charts and graphs in SAP Fiori applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SmartFilterBar",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SmartForm",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SmartTable",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SmartChart",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 43
+    },
+    {
+      "question": "You develop an SAPUI5 app and implement a FacetFilter. What events are triggered when the user interacts with the FactFilter control?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "listFilter",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "oninit",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "reset",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "confirm",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 44
+    },
+    {
+      "question": "You need to implement an SAP Fiori transactional app for your customer. What benefits are available in the completed app?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "It allows fast iterations for the UI apps",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "It allows drill-down details to be presented in the UI",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "It allows access to the back end to edit document details",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "It allows UI changes without development privileges in the back-end",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 45
+    },
+    {
+      "question": "In the Git source code management system, what is executed initially to create the local Git repository in SAP Web IDE?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Clone",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Pull",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Fetch",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Push",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 46
+    },
+    {
+      "question": "What are the main artefacts of an SAPUI5 applications?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Control",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Models",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Views",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "CSS",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Controllers",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 47
+    },
+    {
+      "question": "You are modeling a new role for your SAP Fiori Launchpad users. Which of the following steps is an optional configuration step?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Create Catalog",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Create Group and Assign Tile",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Assign Catalog to Role",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Create Tiles and Target Mappings",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 48
+    },
+    {
+      "question": "What control in the index.html file is used support letterboxing if necessary?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "sap.ui.core.View",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "sap.ui.core.ComponentContainer",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "sap.ui.Shell",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "sap.ui.core.Component",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 49
+    },
+    {
+      "question": "What aggregations are defined by the sap.suite.ui.commons.ChartContainer?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "content",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "customicons",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "dimensionSelector",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "container",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "legend",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 50
+    },
+    {
+      "question": "Which dependent plugin must you enable to include the Push plugin when you create a hybrid mobile app?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "App Update",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Network Connection",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Dialog Notification",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Logon Manager",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 51
+    },
+    {
+      "question": "What can your customer use a custom SAP Fiori client for?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "To build the SAP Fiori Client with a customized communication protocol",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "To add additional plugins to the application",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "To create non-Cordova hybrid application containers",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "To wrap the application with SAP Mobile Secure",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "To apply custom branding",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 52
+    },
+    {
+      "question": "Which of the following tools is used to configure and adapt the SAP Fiori Launchpad content, such as catalogs, groups, and roles?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Role Editor",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "UI5 Inspector",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Launchpad Designer",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Theme Designer",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 53
+    },
+    {
+      "question": "In a SAP Fiori hub deployment, where is the SAPUI5 application code stored for a transactional app?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP HANA XS Engine",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Back-End Server (BES)",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Front-End Server (FES)",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP Web Dispatcher",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 54
+    },
+    {
+      "question": "Where are the themes saved for the SAP Fiori launchpad?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "In the theme data center",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "In the UI theme designer tool",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "In the bootstrap",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "In the theme repository",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 55
+    },
+    {
+      "question": "Which of the following statements are talking about the SAP Fiori app architecture?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "SAP Fiori apps should use the SAPUI5 core as a place to hold app data models",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori apps need to have an app descriptor that describes the applications metadata",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori apps have a index.html file that is used for SAP Fiori launchpad integration",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori apps are implemented using the component-based approach",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 56
+    },
+    {
+      "question": "What is the usage of Object Model annotations?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Semantic annotation for fields of the result set",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Annotation for the consumption layer",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "UI-relevant annotations used SAP Fiori elements",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Annotation for structured and transactional aspects of the data model",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 57
+    },
+    {
+      "question": "What are the current UI Technologies of SAP?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Web Dynpro ABAP / Floorplan Manager",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Java Server Pages",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAPUI5",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Dynpro",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Business Server Pages",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 58
+    },
+    {
+      "question": "What layout control is used to achieve flexible and responsible layouts?",
+      "answers": [
+        {
+          "text": "FlexBox",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Splitter",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Grid",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "VerticalLayout",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 59
+    },
+    {
+      "question": "Scenario: A company has implemented a standard SAP Fiori application for purchase order management. They want to add custom fields and logic to the application to cater to their specific business processes.",
+      "answers": [
+        {
+          "text": "Using Component Variants.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Creating Custom Controls.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Using Extension Points.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Implementing UI Controller Hooks.",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Modifying the standard application directly.",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 60
+    },
+    {
+      "question": "Which of the following sequences is the correct sequence for the Problem Space phase in a Design Thinking workshop?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Scoping, 360’ Research, Synthesis",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Scoping, Synthesis, Ideation",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "360’ Research, Scoping, Synthesis",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Scoping, 360’ Research, Ideation",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 61
+    },
+    {
+      "question": "What OData versions are currently supported by SAPUI5?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "OData V4",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "OData V5",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "OData V7",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "OData V2",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 62
+    },
+    {
+      "question": "What attributes is assigned to @UI.fieldGroup to add an identifier?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Qualifier",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Identity",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Identifier",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Quantity",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 63
+    },
+    {
+      "question": "Which file is referred to as the App Descriptor and what is its function?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "The config-json file is referred to as App Descriptor Its function is to configure ports and turn on plug-ins",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "The neo.json file is referred to as App Descriptor Its function is to capture data from objects",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "The manifest.json file is referred to as App Descriptor Its function is to instantiate the model",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "The configure.xml file is referred to as App Descriptor Its function is to configure web apps and turn on plug-ins",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 64
+    },
+    {
+      "question": "Which of the following is a key benefit of using the MVC architecture in SAPUI5 application development?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Eliminates the need for controllers",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Combines business logic with UI",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Reduces the need for data binding",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Ensures separation of concerns",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 65
+    },
+    {
+      "question": "What is an Aggregation?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "A relationship between two controls",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Is not a parent/ child relationship",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Is a parent child relationship",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "A relationship between the text field and its label",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 66
+    },
+    {
+      "question": "In the context of SAPUI5, what is the primary purpose of extensibility?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "To redesign the core functionality of an application.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "To allow for modifications and enhancements without altering the original application.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "To add new database tables and fields.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "To change the underlying programming language of an application.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 67
+    },
+    {
+      "question": "What is the purpose of SAP Build?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Provides tooling to support the developer during development of SAPUI5 applications",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Provides tooling to support the developer during development of back-end services",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Provides tooling to support the designer during various phases of design thinking",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 68
+    },
+    {
+      "question": "In the SAP Fiori Launchpad, which component serves as a container that holds one or more tiles or links?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Role",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Tile",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Catalog",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Group",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 69
+    },
+    {
+      "question": "Which of the following resources provides detailed information on the design patterns, usage, and behavior of SAP Fiori applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP Fiori Design Guidelines",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Developer Blueprint",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Implementation Manual",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori Design Toolkit",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 70
+    },
+    {
+      "question": "Scenario: A developer has made changes to an existing SAP Fiori application. Before deploying the changes, which tool can be used to compare the new version with the previous version?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "SAP Fiori Debugger",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Inspector",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Version Comparator",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori Test Recorder",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "SAP Fiori Monitor",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 71
+    },
+    {
+      "question": "What is SAP Kapsel?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "SAP specific plug-in for Apple iOS",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP specific plug-in for Android",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP Kapsel provides the API to interact from Cordova based web applications to SMP# and software cloud platforms",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP specific plug-in for Cordova",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 72
+    },
+    {
+      "question": "What are the advantages of the Sinon.JS framework?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "It provides support for Spies, stubs and mocks",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "It supplies higher level test doubles for timers and AJAX requests",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "It can be used with any JavaScript unit test framework",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "It enables test-driven development",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 73
+    },
+    {
+      "question": "In SAP Fiori Elements, which annotation is used to define the UI behavior of a field, such as making it read-only or mandatory?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "UI.SelectionField",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "UI.DataField",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "UI.DataFieldForAnnotation",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "UI.FieldGroup",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 74
+    },
+    {
+      "question": "You develop an SAPUI5 app that updates data for sales order and sales order items on the back-end system. What do you create to implement a deep insert?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create an object structure that defines the hierarchy",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Create a flat structure with Sales Order and Sales Order Items, and then add an expand command",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Create individual structures for both Sales Order and Sales Order Items, and then batch them",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Create a nested structure for Sales Order and Sales Order Items",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 75
+    },
+    {
+      "question": "Which technologies are used to create Hybrid apps and SAPUI5 apps?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "XML, JSON and CSS",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "XML, JavaScript and CSS3",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "HTML5, JavaScript and CSS",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "HTML, JSON and CSS3",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 76
+    },
+    {
+      "question": "Scenario: A developer is tasked with creating an SAP Fiori application for inventory management. The company wants to ensure that the application adheres to best practices and provides a consistent user experience.",
+      "answers": [
+        {
+          "text": "SAP Fiori User Feedback Portal",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Design Guidelines",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Implementation Blueprints",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori Debugging Toolkit",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "SAP Fiori Customization Manual",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 77
+    },
+    {
+      "question": "What of the following aspects are true for a SAPUI5 UI-element?\nThere are 3 correct answer to this question.",
+      "answers": [
+        {
+          "text": "Does not have a renderer",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Has a renderer",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Has an API",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Can have events",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 78
+    },
+    {
+      "question": "You created a new catalog that contains some apps. You want to assign these apps to an existing role to provide authorization for the business users. How can you do this using the PFCG transaction?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "By adding the catalog to the menu tab of the role",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "By assigning the authorization profile for the catalog in the authorization tab",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "By adding the tile and target mapping to the group",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "By adding the semantic object to the catalog and group",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 79
+    }
+  ]
+}
