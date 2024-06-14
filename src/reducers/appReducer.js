@@ -1,9 +1,10 @@
+import { STATES } from "@/constants";
 import data from "../../mocks/data_questions.json";
 // import data from "../../mocks/data_with_answers.json";
 const questions = data.data.map((q) => {
   return {
     ...q,
-    checked: false,
+    status: STATES.clicked,
   };
 });
 
@@ -13,7 +14,7 @@ export const initialState = {
 };
 
 export const AppReducer = (state, action) => {
-  const { type, id } = action;
+  const { type, id , status} = action;
   switch (type) {
     case "next":
       return {
@@ -21,17 +22,16 @@ export const AppReducer = (state, action) => {
         currentQuestion: id,
       };
     case "answer": {
-        console.log('Entro');
       return {
         ...state,
-        questions: fnChangeStateQuestion(state.questions, id),
+        questions: fnChangeStateQuestion(state.questions, id, status),
       };
     }
   }
 };
 
-const fnChangeStateQuestion = (aQuestion, id) => {
+const fnChangeStateQuestion = (aQuestion, id, status) => {
   const aQuestionR = structuredClone(aQuestion);
-  aQuestionR[id].checked = true;
+  aQuestionR[id].status = status;
   return aQuestionR;
 };
