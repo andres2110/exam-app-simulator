@@ -1,5 +1,5 @@
 import { AppContext } from "@/app/page";
-import { haveSameElements } from "@/constants";
+import { STATES, haveSameElements } from "@/constants";
 import React, { useContext, useState } from "react";
 
 export default function Question() {
@@ -14,15 +14,24 @@ export default function Question() {
     setError(!bErrorArray);
     if (bErrorArray) {
       setMessage("Bien hecho");
-      fnDispatch({
-        type: "answer",
-        id: oQuestion.id,
-      });
       setTimeout(() => {
+        fnDispatch({
+          type: "answered",
+          id: oQuestion.id,
+          status: STATES.passed
+        });
         fnMove("next");
       }, 500);
     } else {
       setMessage("Vuelve a intentarlo");
+      setTimeout(() => {
+        fnDispatch({
+          type: "answered",
+          id: oQuestion.id,
+          status: STATES.error
+        });
+        fnMove("next");
+      }, 500);
     }
   };
   const fnRefresh = () => {

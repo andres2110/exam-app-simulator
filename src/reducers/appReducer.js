@@ -4,27 +4,38 @@ import data from "../../mocks/data_questions.json";
 const questions = data.data.map((q) => {
   return {
     ...q,
-    status: STATES.clicked,
+    status: STATES.normal,
   };
 });
 
 export const initialState = {
   currentQuestion: 0,
   questions: questions,
+  passedQuestions: [],
+  errorQuestions: [],
 };
 
 export const AppReducer = (state, action) => {
-  const { type, id , status} = action;
+  const { type, id, status } = action;
   switch (type) {
     case "next":
       return {
         ...state,
         currentQuestion: id,
       };
-    case "answer": {
+    case "answered": {
+      let aPassed = state.passedQuestions;
+      let aError = state.errorQuestions;
+      if (status === STATES.passed) {
+        aPassed = fnChangeStateQuestion(aPassed, id, STATES.passed);
+      }
+      if (status === STATES.error) {
+        aError = fnChangeStateQuestion(aError, id, STATES.error);
+      }
       return {
         ...state,
-        questions: fnChangeStateQuestion(state.questions, id, status),
+        passedQuestions: aPassed,
+        errorQuestions: aError,
       };
     }
   }
@@ -32,6 +43,6 @@ export const AppReducer = (state, action) => {
 
 const fnChangeStateQuestion = (aQuestion, id, status) => {
   const aQuestionR = structuredClone(aQuestion);
-  aQuestionR[id].status = status;
+  aQuestionR.push(id);
   return aQuestionR;
 };

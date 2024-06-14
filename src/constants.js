@@ -3,10 +3,10 @@ export const ACTIONS = {
 };
 
 export const STATES = {
-  clicked: 'w-5 text-white bg-blue-800 ',
-  passed: "w-5 text-white bg-green-400",
-  error: "",
-  normal: "w-5 text-white bg-gray-600",
+  clicked: 'clicked',
+  passed: "passed",
+  error: "error",
+  normal: "normal",
 };
 
 export const haveSameElements = (arr1, arr2) => {
