@@ -1,5 +1,5 @@
 {
-  "data": [
+  "test1": [
     {
       "question": "What is the best approach to show a UI-control only on a desktop and not on mobile device?\nPlease choose the correct answer.",
       "answers": [
@@ -2126,6 +2126,2138 @@
           "text": "By adding the semantic object to the catalog and group",
           "valid": false,
           "id": 3
+        }
+      ],
+      "id": 79
+    }
+  ],
+  "test2": [
+    {
+      "question": "What is the name of the UI-control that acts a canvas for diagrams?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "VizDiagram",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "VizFrame",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "VizArea",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAPDiagram",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 0
+    },
+    {
+      "question": "Which features of the SAP Business Application Studio help you extend a standard SAP Fiori app?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "A wizard to generate the files for each extension possibility",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "An editor to modify the data model in the extended project",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "The Extensibility Pane to choose extension points",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "The Descriptor Editor to choose elements for extension",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "question": "To perform a QUnit test, what do you include in a test page under your webapp folder?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "OPA function",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAPUI5 bootstrap code",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Mock code",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Stub code",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "question": "Which activities does the OData Model Editor support?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Test ODataModels",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Define Odata models",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Deploy ODataModels",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Edit ODataModels",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "question": "What happens if the text is not available in the customized bundle of your extension?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "The key will display in the application in capital letters.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAPUI5 tries to find the text in the resource bundle of the standard application.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "An exception is raised",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "No text is displayed",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "question": "You are an administrator for your S/4HANA 1809 landscape. You want to disable personalization and themes on the SAP Fiori Launchpad for select users in one client. How can you do this?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_PERS_ON, adjusting the relevant parameter in the target mapping, and assign it to the users by a PFCG role.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_CUS_CONF and assign it to the users by a PFCG role.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_SYS_CONF and assign it to the users by a PFCG role.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Create a new catalog referencing /UI2/CONFIG_PERS_OFF and assign it to the users by a PFCG role.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "question": "Your customer requires that the SAPUI5 design of all apps reference a specific and consistent look and feel. What do you create?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create a css file using the Web IDE implementing the specific look and feel and reference this css in the bootstrap of all apps",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Create a theme using the Theme Designer implementing the specific look and feel and reference this theme in the bootstrap of all apps",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Create a global JavaScript file using the Web IDE implementing the specific look and feel and reference this file in the bootstrap of all apps",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Create a model using the Web IDE implementing the specific look and feel and reference this model in the bootstrap of all apps",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Create a module using the Web IDE implementing the specific look and feel and reference this module in the bootstrap of all apps",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 6
+    },
+    {
+      "question": "Which elements are part of the UX?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "User response",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "User effectiveness",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "User emotion",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "User interaction",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 7
+    },
+    {
+      "question": "What is the idea behind the golden rule of having one common UX?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Reduces development costs",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Reduces training costs and increases the quality of data",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Reduce the overall total cost of ownership",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 8
+    },
+    {
+      "question": "You develop an SAPUI5 app that can be extended. To allow your customer notifications, you set up a hook method. What activities are required to implement a hook method?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create a .js file in the Util folder to allow the customer to add custom code",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Modify the bootstrap option to allow multi-layer extensions of the custom code",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Identify a strategic location in the controller for the customized code",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Define a new function name ensuring it is reserved for the extension",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Add a code snippet to check if the method exists and execute it",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 9
+    },
+    {
+      "question": "Which of the following extensibility options in SAPUI5 allows developers to add or replace views, controllers, or other application files?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "UI Controller Hooks",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Component Variants",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Custom Controls",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Extension Points",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 10
+    },
+    {
+      "question": "In SAPUI5, which component provides a structured way to create web applications and ensures a consistent app structure?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "MVC (Model-View-Controller)",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "OData Protocol",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "JSON Model",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "XML Fragments",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 11
+    },
+    {
+      "question": "You need to strengthen the connection security between the Web IDE and the Hybrid App Toolkit Connector. Which of the following activities do you perform?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Replace the default API key",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Install an X.509 certificate",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Change the default port number",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Run the connector with administrator rights",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 12
+    },
+    {
+      "question": "In the SAP Fiori deployment process, which of the following is essential for transporting developed applications from the development environment to the production environment?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP Fiori Designer",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Launchpad",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Client",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP Transport Management System (TMS)",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 13
+    },
+    {
+      "question": "What is a prerequisite for configuring the SAP Fiori HAT Connector?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Generate a service certificate",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Create an SAP HANA Cloud Platform (HCP) Web IDE account",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Create a local Cordova project",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Set the path for custom plug-ins",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 14
+    },
+    {
+      "question": "OData stands for...\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Object Data Access",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Operational Data Application",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Optimized Data Access",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Open Data Protocol",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 15
+    },
+    {
+      "question": "What is the usage of Object Model annotations?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Annotation for the consumption layer",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Semantic annotation for fields of the result set",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "UI-relevant annotations used SAP Fiori elements",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Annotation for structured and transactional aspects of the data model",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 16
+    },
+    {
+      "question": "Which of the following components are part of the SAP Web IDE, hybrid app toolkit add-on?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP Web IDE Plugin, Hybrid Companion App, Hybrid App Toolkit Connector",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Hybrid App Project Templates, Device Configuration, Hybrid App Toolkit Connector",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Hybrid Companion App, Config.json, Package.json, SAP Web IDE Plugin",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Kapsel Plugins, SAP Web IDE Plugin, Hybrid App Toolkit Connector",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 17
+    },
+    {
+      "question": "What are some advantages of the Model View Controller (MVC) design pattern used in SAPUI5?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Allows changing the view without modifying the underlying business logic.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Allows to define several views of the same data.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "MVC artifacts can be transported and debugged separately.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "It supports quick coding.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 18
+    },
+    {
+      "question": "Which of the following make up the configuration of a tile for launching an SAP fiori app of type SAP UI5 in the SAP Fiori launchpad designer?\nThere are 4 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Semantic Object",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Launchpad creation via LPD_CUST",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Target Mapping",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Tile Configuration",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Tile Implementation",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 19
+    },
+    {
+      "question": "Scenario: A developer has made changes to an existing SAP Fiori application. Before deploying the changes, which tool can be used to compare the new version with the previous version?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "SAP Fiori Debugger",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Monitor",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Inspector",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori Test Recorder",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "SAP Fiori Version Comparator",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 20
+    },
+    {
+      "question": "Scenario: A company is migrating its application development environment to the cloud. They want a tool that offers a modern development experience with pre-configured development environments.",
+      "answers": [
+        {
+          "text": "SAP Fiori Designer",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Business Application Studio",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Web IDE",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP Data Intelligence",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 21
+    },
+    {
+      "question": "You want to use transaction /UI2/FLP to start the SAP Fiori Launchpad using the Web Dispatcher. Which database table do you use to configure this?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "HTTP_MADMIM",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "HTTPURLLOC",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "HTTP_CSP_MADMIN",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "HTTP_WHITELIST",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 22
+    },
+    {
+      "question": "You need the server to sort and filter the data used in your customer’s app. Which SAPUI5-supported data model must you use?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "ResourceModel",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "JSONModel",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "XMLModel",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "ODataModel",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 23
+    },
+    {
+      "question": "In the code on the screenshot, what is the absolute path of the property to retrieve the City value for the company Acme Inc?\n\tPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "/regions/companies/0/city",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "/regions/0/companies/0/city",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "/regions/companies/1/city",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "/regions/1/companies/1/city",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 24
+    },
+    {
+      "question": "You extend an SAP Fiori app. The visibility value of a View Button control needs to be modified. Which extension point do you use?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "View Extension",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "View Modification",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "View Visibility",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "View Replacement",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 25
+    },
+    {
+      "question": "You are developing SAP Fiori Elements applications. Which of the following actions are available in SAP Web IDE?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create an annotation file associated with the OData service and add annotations",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Choose the OData service as data provider for the project",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Add catalog to user menu in a PFCG role and grant the role to user",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Create a catalog, target mapping, and tiles",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 26
+    },
+    {
+      "question": "In the context of OData, which HTTP method is used to retrieve data from a service?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "GET",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "PUT",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "DELETE",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "POST",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 27
+    },
+    {
+      "question": "Your customer requires that the SAPUI5 design of all apps matches their corporate theme. Which of the following actions do you perform?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Reference the relevant artifacts in the bootstrap of the app.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Create a css file using the SAP Business Application Studio implementing the theme.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Create a module using the Web IDE implementing the theme.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Create a theme using the Theme Designer implementing the theme.",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Create a model using the SAP Business Application Studio implementing the theme.",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 28
+    },
+    {
+      "question": "Which of the following best describes the primary goal of SAP Fiori's design strategy?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Desktop-only applications",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Non-responsive designs",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Role-based and user-centric experiences",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Complex and detailed user interfaces",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 29
+    },
+    {
+      "question": "What of the following is true for implementing your own renderer?\nThere are 3 correct answer to this question.",
+      "answers": [
+        {
+          "text": "Assign a reference to the renderer property of the UI control",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Implement a renderer class derived from sap.ui.core.Renderer in a separate file",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Implement the Renderer using AMD syntax",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Implement the render function inside the control",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 30
+    },
+    {
+      "question": "What is Apache Cordova?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "API provided by SAP to access mobile device features",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP product to run SAP Fiori applications on mobile device",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "An open source mobile development framework",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "A cloud service to access data from mobile devices",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 31
+    },
+    {
+      "question": "What is the purpose of the Logon Plugin Data Vault of the SAP Fiori Client?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Allow a client policy that can be defined on the mobility platform",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Prevent the access to all nonessential plugins",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Enable secure and seamless handling of attachments",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Provide a reusable component for storing sensitive information on the device",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 32
+    },
+    {
+      "question": "What activity does the QUnit Stub functionality perform?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Supplies parameter for method calls",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Returns values for method calls",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Provides parameters and return values for method calls",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Verifies that expected methods are called correctly",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 33
+    },
+    {
+      "question": "What are the Lifecycle events of an SAPUI5 view controller?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "onExecution",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "onBeforeRendering",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "onEntry",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "onExit",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 34
+    },
+    {
+      "question": "In the context of SAP BTP, which service provides tools and capabilities for connecting cloud applications with on-premise solutions?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP Cloud Connector",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Data Intelligence",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP BTP Extension Suite",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP BTP Integration Suite",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 35
+    },
+    {
+      "question": "Your customer asks you to add text for a new language to an app. Which file do you provide to the translator?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "i18n.properties",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Manifest.json",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Master.view.xml",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Components.js",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 36
+    },
+    {
+      "question": "What names have the view ports of the SAP Fiori launchpad?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Me area",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Workspace",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Notification area",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Desktop",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 37
+    },
+    {
+      "question": "What goals does the SAPUI5 framework have?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Providing a lightweight programming model for desktop only applications",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "User Interface technology for building and adapting client applications",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "User Interface technology for building and adapting server based applications",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Providing an extensible framework for building desktop and mobile applications",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 38
+    },
+    {
+      "question": "SAP Fiori Elements utilizes a metadata-driven approach for SAP Fiori app development. What are the implications of this?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAPUI5 Smart Controls must be created by developers to utilize the OData annotations and metadata of SAP Fiori Elements templates.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Smart Templates must be used by the developer to consume OData annotations and metadata so the SAPUI5 runtime can use the corresponding view.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "The SAPUI5 runtime interprets metadata and annotations of the OData service and uses the corresponding views for the Fiori app at startup.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "App developers must use JavaScript to allow their applications to read OData annotations and metadata.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 39
+    },
+    {
+      "question": "Which of the following types are types of cards in an Overview Page?\nThere are 4 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Analytic Cards",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Link List Cards",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Array Cards",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "List Cards",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Table Cards",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 40
+    },
+    {
+      "question": "What is the purpose of build server?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Provides software that allows continuous integration",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Manage components build artifacts, and releases candidates in one central location",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Used for code review",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Used for version control",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 41
+    },
+    {
+      "question": "How do you access the MessageManager?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "You have to instantiate the MessageManager using the constructor function",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "It is a singleton and can be accessed by the getMessageManager function on the core object",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Each UI-control provides a function to access the messager",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 42
+    },
+    {
+      "question": "Scenario: A company is redesigning its suite of applications to align with SAP Fiori guidelines. They want to ensure that the applications provide immediate value to users by displaying only essential information.",
+      "answers": [
+        {
+          "text": "Role-based",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Simple",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Delightful",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Coherent",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Adaptive",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 43
+    },
+    {
+      "question": "What options can you use to add UI annotations to a SAP Fiori Element Page?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Add Annotation to the Annotation file present as a part of WebIDE project using Annotation modeler",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Add Annotation to the underlying Database Table",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Add Annotations to the manifest file present as a part of WebIDE project using the Descriptor Edit",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Add Annotation with the help of a Metadata Extension",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Add Annotations to the underlying CDS view",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 44
+    },
+    {
+      "question": "The SAP Fiori Launchpad serves as a...\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Database management tool",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Code editor for SAPUI5",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Central entry point to SAP Fiori apps",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Deployment platform for SAP HANA",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 45
+    },
+    {
+      "question": "Your customer wants to enable the SAP Fiori app to be accessed in multiple languages. Which of the following activities do you perform?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Create a resource file for each language",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Create a view file and a controller file for each language",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "HTML -enable the special characters in the resource file",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Create a resource file with a .props extension",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Create a resource file containing key/value pairs",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 46
+    },
+    {
+      "question": "Your customer requests a special create method to enable the creation of the full OData hierarchy. Which OData service method can you use?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "EXECUTE_DEEP_INSERT",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "CREATE_STREAM",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "CREATE_BATCH_ENTITY",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "CREATE_DEEP_ENTITY",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 47
+    },
+    {
+      "question": "Why is it advisable to not use a custom CSS file in your SAP UI5 applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Time spent designing modified CSS is expensive.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAPUI5 has problems with custom CSS",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Having one central design created with the theme designed is every efficient. When something needs to be changed at the client interface, it is easier to handle.",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 48
+    },
+    {
+      "question": "What steps are used to display a field as a rating indicator?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Set the visualization of line item to #RATING",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Set type of line item to #AS_DATAPOINT",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Add a @UI.chart annotation to the field and set the visualization to #RATING",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Add a @UI.datapoint to the field and set the visualization to #RATING",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 49
+    },
+    {
+      "question": "Which of the following tools in SAP Fiori is primarily used for automated testing of applications?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP Fiori Monitor",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori Test Recorder",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori Debugger",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori Inspector",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 50
+    },
+    {
+      "question": "Which of the following is NOT a standard CRUD operation supported by OData?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Update",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Create",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Merge",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Retrieve",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 51
+    },
+    {
+      "question": "What message types are known by SAPUI5?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Log messages",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "UI-messages",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Server messages",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Control messages",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 52
+    },
+    {
+      "question": "Which SAP Fiori application is launched by using the search functionality instead of using a tile?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Legacy",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Transactional",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Factsheet",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Analytical",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 53
+    },
+    {
+      "question": "What are the advantages of Local Annotations Over SADL-based Annotations?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "All the Framework-Specific Annotations available as a part of CDS views are also available as a part of Annotation Modeler, which makes it highly flexible",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Can Override the CDS based Annotations",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Local Annotations are more reusable as compared to SADL based annotations",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Can handle Complex annotations which is not a bound to a single field or entity",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 54
+    },
+    {
+      "question": "What are the features of Fiori Elements?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "No JavaScript UI Coding",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Centrally Provided Templates covering Reporting, Analytic, Transaction secnarios.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "A replacement for traditional free style SAPUI5 programming, can satisfy all customer needs in a brand new approach.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Metadata-driven approach of Fiori development",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 55
+    },
+    {
+      "question": "You need to consume the OData Service from the Gateway to create a new SAP Fiori app in the SAP Web IDE. What value do you configure in the WebIDEUsage property for the destination in the SAP HANA Cloud Platform?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "odata_abap",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "dev_abap",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "odata_xs",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "odata_gen",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 56
+    },
+    {
+      "question": "How can you hide some columns when the list report is accessed by a mobile phone?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Prepare different version of @UI.lineitem and assign them as different qualifier",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Put all fields, which are not important at the end of the report, when screen gets smaller, the fields will hide automatically.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Add @UI.hidden for fields, not import",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Set UI.lineItem importance for those fields as #LOW or #MEDIUM",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 57
+    },
+    {
+      "question": "Which of the following is NOT a key capability of the SAP BTP Integration Suite?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Application extension",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Data intelligence",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Process integration",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "API management",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 58
+    },
+    {
+      "question": "Which of the following is a key component of the SAP Fiori Launchpad that provides users with access to their apps?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Controllers",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Fragments",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Tiles",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Extensions",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 59
+    },
+    {
+      "question": "Which of following templates display only one business entity?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Overview Page",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "List Report",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Analytic List Page",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Object Page",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 60
+    },
+    {
+      "question": "What happens if you execute an app that contains the following bootstrap file?\n\tPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "The bootstrap will load and the SAP default theme will be used",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "The bootstrap will load and the application will run successfully but without a theme",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "The bootstrap will NOT load and the application will produce an error message that the theme is missing",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "The bootstrap will load and the customer-defined default theme will be used",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 61
+    },
+    {
+      "question": "What three key aspects are important when talking about innovation?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Viability",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Desirability",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Scalability",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Feasibility",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 62
+    },
+    {
+      "question": "Which dependent plugin must you enable to include the Push plugin when you create a hybrid mobile app?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Network Connection",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "App Update",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Logon Manager",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Dialog Notification",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 63
+    },
+    {
+      "question": "Which of the following annotations would you use for a List Report Page?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Use @Search.defaultSearchElement annotation to define input fields with value help.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Use @UI.hidden annotation to hide the fields that are not to be displayed on a list report.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Use @UI.selectionField annotation to define a fuzzy search field.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Use @ULlineitem.importance annotation to determine in which devices the field is displayed.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 64
+    },
+    {
+      "question": "In SAPUI5 applications, which model provides seamless integration with OData services and supports two-way data binding?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "XML Model",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "OData Model",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Resource Model",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "JSON Model",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 65
+    },
+    {
+      "question": "The SAP Fiori Design Guidelines are available for various device types. For what device types are the design guidelines available?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "SAP Fiori for iOS",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori for Android",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "SAP Fiori for Web",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAP Fiori for Windows",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "SAP Fiori for Blueberry",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 66
+    },
+    {
+      "question": "What is the best approach to show a UI-control only on a desktop and not on mobile device?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Use the Device-API to check the environment and call setVisible on the UI-control",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Use the standard CSS class sapUiVisibleOnlyOnDesktop",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Use the UI control from sap.ui.commons. Those UI-controls are able to handle this automatically",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 67
+    },
+    {
+      "question": "Scenario: An e-commerce company is developing an SAPUI5 application to manage customer orders. They want to ensure that the application is responsive and provides a consistent user experience across devices.",
+      "answers": [
+        {
+          "text": "Data Binding",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Responsive Design",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Fragment Loading",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Direct CSS Styling",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Use of Standard Controls",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 68
+    },
+    {
+      "question": "Which of the following layouts, are described in v1.48 of guidelines?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Split-screen",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Full-screen",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Dynamic page",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Flexible column layout",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Mobile device layout",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 69
+    },
+    {
+      "question": "Which annotations are needed in a CDS View to create an Analytic Card in an Overview Page?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "@UI.Chart",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "@UI.identification",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "@UI.lineItem",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "@UI.dataPoint.responsible",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 70
+    },
+    {
+      "question": "What steps needs to be done in manifest.json if you need to hide variant function in a list report?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Set setting variantManagementHidden to true",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Add setting to enable smart Variant Management",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Add setting to disable smart variant Management",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Set setting variantManagementHidden to false",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 71
+    },
+    {
+      "question": "Scenario: A company wants to extend a standard SAP Fiori application by adding new buttons to the application toolbar. These buttons will trigger custom actions.",
+      "answers": [
+        {
+          "text": "Extension Points",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Fragment Extensions",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Custom Controls",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "UI Controller Hooks",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 72
+    },
+    {
+      "question": "Which of the following components in the SAP Fiori architecture is responsible for handling user requests and rendering the user interface?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "Back-end server",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Database server",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "OData service",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Front-end server",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 73
+    },
+    {
+      "question": "Which HTTP request methods does the SAP Gateway server use to compute and return a new eTag in a response header?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "POST",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "PUT",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "GET",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "DELETE",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 74
+    },
+    {
+      "question": "In the context of SAP BTP, which service provides capabilities for extending SAP Cloud solutions?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "SAP BTP Extension Suite",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "SAP BTP Analytics Suite",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "SAP BTP Database Suite",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "SAP BTP Integration Suite",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 75
+    },
+    {
+      "question": "Which of the following components are part of the SAP Fiori launchpad?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "UI2 services",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Runtime configuration",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Shell container",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Runtime container",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Shell Services",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 76
+    },
+    {
+      "question": "You need to implement an SAP Fiori transactional app for your customer. What benefits are available in the completed app?\nThere are 2 correct answers to this question.",
+      "answers": [
+        {
+          "text": "It allows UI changes without development privileges in the back-end",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "It allows fast iterations for the UI apps",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "It allows access to the back end to edit document details",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "It allows drill-down details to be presented in the UI",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 77
+    },
+    {
+      "question": "Your customer needs an app that can perform data modifications. Which ODataModel binding-mode do you select?\nPlease choose the correct answer.",
+      "answers": [
+        {
+          "text": "One-way",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "One-time",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Three-way",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Two-way",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 78
+    },
+    {
+      "question": "What are the current UI Technologies of SAP?\nThere are 3 correct answers to this question.",
+      "answers": [
+        {
+          "text": "Business Server Pages",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Java Server Pages",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Web Dynpro ABAP / Floorplan Manager",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "SAPUI5",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Dynpro",
+          "valid": true,
+          "id": 4
         }
       ],
       "id": 79

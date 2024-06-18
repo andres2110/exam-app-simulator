@@ -1,17 +1,20 @@
 "use client";
 import Question from "@/components/Question";
 import Questions from "@/components/Questions";
+import Tests from "@/components/Tests";
 import { AppReducer, initialState } from "@/reducers/appReducer";
-import { createContext, useReducer, useState } from "react";
+import { createContext, useReducer } from "react";
 export const AppContext = createContext(null);
 export default function Home() {
   const [state, fnDispatch] = useReducer(AppReducer, initialState);
+  const { currentTest } = state;
   return (
     <AppContext.Provider value={{ state, fnDispatch }}>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="flex min-h-screen flex-col items-center  p-24">
+        <Tests />
         <div className="w-full flex ">
-          <Question/>
-          <Questions />
+          {currentTest && <Question />}
+          {currentTest && <Questions />}
         </div>
       </main>
     </AppContext.Provider>

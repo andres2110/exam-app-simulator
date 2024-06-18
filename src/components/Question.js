@@ -1,8 +1,8 @@
 import { AppContext } from "@/app/page";
-import { STATES, haveSameElements } from "@/constants";
+import { ACTIONS, STATES, haveSameElements } from "@/constants";
 import React, { useContext, useState } from "react";
 
-export default function Question() {
+export const Question = React.memo(() => {
   const { state, fnDispatch } = useContext(AppContext);
   const [sMessage, setMessage] = useState("");
   const [bError, setError] = useState(false);
@@ -14,21 +14,21 @@ export default function Question() {
     setError(!bErrorArray);
     if (bErrorArray) {
       setMessage("Bien hecho");
+      fnDispatch({
+        type: ACTIONS.answer,
+        id: oQuestion.id,
+        status: STATES.passed,
+      });
       setTimeout(() => {
-        fnDispatch({
-          type: "answered",
-          id: oQuestion.id,
-          status: STATES.passed
-        });
         fnMove("next");
       }, 500);
     } else {
       setMessage("Vuelve a intentarlo");
       setTimeout(() => {
         fnDispatch({
-          type: "answered",
+          type: ACTIONS.answer,
           id: oQuestion.id,
-          status: STATES.error
+          status: STATES.error,
         });
         fnMove("next");
       }, 500);
@@ -52,12 +52,13 @@ export default function Question() {
     });
   };
   const fnMove = (direction) => {
+    let { questions } = state;
     let id = state.currentQuestion;
     if (id === 0 && direction === "prev") return;
-    if (id === 79 && direction === "next") return;
+    if (id === questions.length - 1 && direction === "next") return;
     id = direction === "next" ? ++id : --id;
     fnDispatch({
-      type: "next",
+      type: ACTIONS.move,
       id: id,
     });
     fnRefresh();
@@ -87,7 +88,7 @@ export default function Question() {
       <button className="bg-green-600 ml-6" onClick={() => fnRefresh()}>
         Refrescar
       </button>
-      <button className="bg-yellow-400 ml-6" onClick={() => fnValidate()}>
+      <button className="bg-yellow-400 ml-6" onClick={fnValidate}>
         Validar
       </button>
       {sMessage.length > 0 && <p className={bError ? "text-red-600" : "text-green-500"}>{sMessage}</p>}
@@ -101,4 +102,5 @@ export default function Question() {
       </div>
     </div>
   );
-}
+});
+export default Question;

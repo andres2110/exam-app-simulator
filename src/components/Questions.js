@@ -1,23 +1,21 @@
 "use-client";
 
 import { AppContext } from "@/app/page";
-import { STATES } from "@/constants";
-import { useContext } from "react";
+import { ACTIONS, STATES } from "@/constants";
+import React, { useContext } from "react";
 
-export default function Questions() {
+export const Questions = React.memo(() => {
   const { state, fnDispatch } = useContext(AppContext);
-  // const aQuestionIds = state.questions.map((e) => e.id);
   const aQuestions = state.questions;
   const aPassed = state.passedQuestions;
   const aError = state.errorQuestions;
   const iCurrentQ = state.currentQuestion;
   const fnGoTo = (id) => {
     fnDispatch({
-      type: "next",
+      type: ACTIONS.move,
       id: id,
     });
   };
-  console.log(aQuestions);
   return (
     <div className="w-1/3 h-1/5 grid grid-cols-5 gap-1">
       {aQuestions.map((oQuestion) => {
@@ -63,4 +61,6 @@ export default function Questions() {
       })}
     </div>
   );
-}
+});
+
+export default Questions;

@@ -1,5 +1,7 @@
 export const ACTIONS = {
   move: "move",
+  answer: "answer",
+  test: "test"
 };
 
 export const STATES = {
