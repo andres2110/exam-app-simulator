@@ -9,30 +9,22 @@ export const Question = React.memo(() => {
   const [answers, fnSetAnswers] = useState([]);
   const oQuestion = state.questions.filter((e) => e.id === state.currentQuestion)[0];
   const aCorret = oQuestion.answers.filter((e) => e.valid === true).map((e) => e.id);
+  const sImg = oQuestion.img !== undefined ? oQuestion.img : "";
+  // const sImg = "https://www.erpprep.com/files/erpprep/download/C_FIORDEV_22-Daypo_7.png";
   const fnValidate = () => {
     const bErrorArray = haveSameElements(answers, aCorret);
     setError(!bErrorArray);
-    if (bErrorArray) {
-      setMessage("Bien hecho");
-      fnDispatch({
-        type: ACTIONS.answer,
-        id: oQuestion.id,
-        status: STATES.passed,
-      });
-      setTimeout(() => {
-        fnMove("next");
-      }, 500);
-    } else {
-      setMessage("Vuelve a intentarlo");
-      setTimeout(() => {
-        fnDispatch({
-          type: ACTIONS.answer,
-          id: oQuestion.id,
-          status: STATES.error,
-        });
-        fnMove("next");
-      }, 500);
-    }
+    let sMessage = bErrorArray ? "Bien hecho" : "Vuelve a intentarlo";
+    let sStatus = bErrorArray ? STATES.passed : STATES.error;
+    setMessage(sMessage);
+    fnDispatch({
+      type: ACTIONS.answer,
+      id: oQuestion.id,
+      status: sStatus,
+    });
+    setTimeout(() => {
+      fnMove("next");
+    }, 500);
   };
   const fnRefresh = () => {
     setError(false);
@@ -66,21 +58,24 @@ export const Question = React.memo(() => {
   const iQuestion = oQuestion.id + 1;
   return (
     <div className=" flex-col w-5/6 p-11">
-      <h1>Question {iQuestion}</h1>
-      <p> {oQuestion.question}</p>
-      <p className="text-gray-600">{aCorret.length} Respuestas correctas </p>
-      <div className="ml-10">
-        {oQuestion.answers.map((answer) => (
-          <div className="flex" key={answer.id}>
-            <input
-              type="checkbox"
-              id={answer.id}
-              checked={answers.includes(answer.id)}
-              onChange={fnOnChange}
-            />
-            <p>{answer.text}</p>
-          </div>
-        ))}
+      <div className="h-3/4">
+        <h1>Question {iQuestion}</h1>
+        <p> {oQuestion.question}</p>
+        {sImg && <img src={sImg} className="w-200" />}
+        <p className="text-gray-600">{aCorret.length} Respuestas correctas </p>
+        <div className="ml-10">
+          {oQuestion.answers.map((answer) => (
+            <div className="flex" key={answer.id}>
+              <input
+                type="checkbox"
+                id={answer.id}
+                checked={answers.includes(answer.id)}
+                onChange={fnOnChange}
+              />
+              <p>{answer.text}</p>
+            </div>
+          ))}
+        </div>
       </div>
       <button className="bg-black text-white border-2    border-white" onClick={() => fnSetAnswers(aCorret)}>
         Ver respuestas

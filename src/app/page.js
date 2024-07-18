@@ -11,8 +11,9 @@ export default function Home() {
   return (
     <AppContext.Provider value={{ state, fnDispatch }}>
       <main className="flex min-h-screen flex-col items-center  p-24">
-        <Tests />
+        <input type="text" className="text-black w-1/2" />
         <div className="w-full flex ">
+          <Tests />
           {currentTest && <Question />}
           {currentTest && <Questions />}
         </div>

@@ -5,20 +5,15 @@ import { AppContext } from "@/app/page";
 export default function Tests() {
   const { state, fnDispatch } = useContext(AppContext);
   const { currentTest } = state;
-  const aTests = [
-    {
-      link: "test1",
-      name: "Test 1",
-    },
-    {
-      link: "test2",
-      name: "Test 2",
-    },
-    {
-      link: "allTest",
-      name: "Only Errors",
-    },
-  ];
+  let aTests = Object.keys(state.tests);
+  aTests = aTests.map((t, idx) => ({
+    target: t,
+    name: `Test ${idx + 1}`,
+  }));
+  aTests.push({
+    target: "allTest",
+    name: "Only incorrect",
+  });
   const fnSetTest = (test) => {
     fnDispatch({
       type: ACTIONS.test,
@@ -26,16 +21,18 @@ export default function Tests() {
     });
   };
   return (
-    <div className="h-1/4">
-      {aTests.map((t) => (
-        <button
-          className={`w-15 bg-blue-${t.link === currentTest ? "500" : "400"} ml-5`}
-          key={t.link}
-          onClick={() => fnSetTest(t.link)}
-        >
-          {t.name}
-        </button>
-      ))}
+    <div className="m-10">
+      <div className="grid grid-cols-1 gap-1">
+        {aTests.map((t) => (
+          <button
+            className={`w-15 bg-blue-${t.target === currentTest ? "500" : "400"} ml-5`}
+            key={t.target}
+            onClick={() => fnSetTest(t.target)}
+          >
+            {t.name}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

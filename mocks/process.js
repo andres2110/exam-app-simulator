@@ -1,10 +1,19 @@
 //// PREGUNTAS
-var questions = pElements
-  .map((element) => element.querySelector("dt > p:not([class])")?.textContent)
-  .filter((o) => o !== undefined);
-var pElements = Array.from(
-  document.getElementsByClassName("quiz-report")[0].children
-);
+// var pElements = Array.from(document.getElementsByClassName("quiz-report")[0].children);
+// var questions = pElements
+//   .map((element) => element.querySelector("dt > p:not([class])")?.textContent)
+//   .filter((o) => o !== undefined);
+
+//--------------------------------Con imagenes-----------------------------
+var pElements = document.querySelectorAll("dt");
+var questions = Array.from(pElements).map((e) => {
+  let text = e.querySelector("p:not([class])").textContent;
+  let img = e.querySelector("p.rtecenter > img")?.src;
+  return {
+    text: text,
+    img: img,
+  };
+});
 
 //Get preguntas con respuestas incorrectas
 var ddElements = document.querySelectorAll("dd");
@@ -24,12 +33,10 @@ ddElements.forEach((dd) => {
     var imgElement = tr.querySelector("td:first-child img");
     var element = {
       text: pElement ? pElement.textContent : "",
-      valid:
-        imgElement &&
-        (imgElement.alt === "Should have chosen" ||
-          imgElement.alt === "Correct"),
+      valid: imgElement && (imgElement.alt === "Should have chosen" || imgElement.alt === "Correct"),
       id: index,
     };
+    element.valid = element.valid === null ? false : element.valid;
     return element;
   });
 
@@ -52,11 +59,7 @@ ddElements.forEach((dd) => {
       // Selecciona la primera <td> y el <img> dentro de ella
       var imgElement = tr.querySelector("td:first-child img");
       // Verifica si el <img> tiene el atributo alt deseado
-      return (
-        imgElement &&
-        (imgElement.alt === "Should have chosen" ||
-          imgElement.alt === "Correct")
-      );
+      return imgElement && (imgElement.alt === "Should have chosen" || imgElement.alt === "Correct");
     })
     .map((tr, index) => {
       // Selecciona el texto del <p> dentro del segundo <td>
@@ -79,12 +82,12 @@ ddElements.forEach((dd) => {
 
 var allAnswers = questions.map((e, index) => {
   let answers = textos[index];
-  let element = { question: e, answers: answers, id: index };
+  let element = { question: e.text, answers: answers, id: index, img: e.img };
   return element;
 });
 
-var justAnswers = questions.map((e, index) => {
-  let answers = textosAgrupadosPorTr[index];
-  let element = { question: e, answers: answers, id: index };
-  return element;
-});
+// var justAnswers = questions.map((e, index) => {
+//   let answers = textosAgrupadosPorTr[index];
+//   let element = { question: e.text, answers: answers, id: index,  };
+//   return element;
+// });

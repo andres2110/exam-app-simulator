@@ -1,0 +1,2384 @@
+{
+  "test1": [
+    {
+      "question": "What steps need to be done in manifest.json if you need to hide variant function in a list report?",
+      "answers": [
+        {
+          "text": "A\nAdd the setting to disable smart Variant Management.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Add the setting to enable smart Variant Management.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nSet the setting showVariantManagement to false.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Set the setting variantManagementHidden to true.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 0
+    },
+    {
+      "question": "Which annotation can you use to mark a field as a selection field? ",
+      "answers": [
+        {
+          "text": "@UI.selectionField.position",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\n@UI.selection.field",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\n@UI.selectionData.position",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "question": "How can you hide some columns when the list report is accessed by a mobile phone?",
+      "answers": [
+        {
+          "text": "A\nAdd @UI.hidden for this fields",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nPut all fields which are not important at the end of the report. When the screen gets smaller, the fields will hide automatically.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Set UI.lineItem.importance for those fields as Low or Medium",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "question": "Is it possible to use full text search with the fuzzy search in a value help? ",
+      "answers": [
+        {
+          "text": "A\nNo",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Yes",
+          "valid": true,
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "question": "Which of the following information about an OData service should be provided as an annotation?",
+      "answers": [
+        {
+          "text": "The position for each field in a list report",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nThe entities of an OData service",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nProperties of an Entity Set/Collection",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 291
+    },
+    {
+      "question": "In which cases is a local annotation better than a CDS annotation?",
+      "answers": [
+        {
+          "text": "A\nUI with data intensive.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "You want to use annotations which are not support by your current ABAP version.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nAnnotations are for one field.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Complex UI relevant annotations.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 541
+    },
+    {
+      "question": "Are the ABAP Core Data Services platform independent? ",
+      "answers": [
+        {
+          "text": "A\nNo",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Yes",
+          "valid": true,
+          "id": 1
+        }
+      ],
+      "id": 224
+    },
+    {
+      "question": "With which CDS annotation can you generate an Odata service?",
+      "answers": [
+        {
+          "text": "A\n@OData.publish-true",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "@OData.publish:true",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\n@OData.publish.true",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 462
+    },
+    {
+      "question": "With which npm command can you start the deploy configuration? ",
+      "answers": [
+        {
+          "text": "A\nnpm deploy config",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nnpm deploy",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "npm run deploy config",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 104
+    },
+    {
+      "question": "In the CDS view which annotation do you need to add to use metadata extension?",
+      "answers": [
+        {
+          "text": "A\n@Metadata.extensions:true",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "@Metadata.allowExtensions:true",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\n@Metadata.extensions.allow:true",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 944
+    },
+    {
+      "question": "Which Floorplans are currently available in SAP Fiori elements ?",
+      "answers": [
+        {
+          "text": "A\nTable Report",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nDetail Report",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Object Page",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "List Report",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 76
+    },
+    {
+      "question": "Which elements are mandatory for an object page?",
+      "answers": [
+        {
+          "text": "Dynamic page header",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Content area",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nNavigation bar",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 21
+    },
+    {
+      "question": "To add a header facet, you should use @UI.HeaderFacet annotation and put it before the define statement of your CDS view.",
+      "answers": [
+        {
+          "text": "False",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nTrue",
+          "valid": false,
+          "id": 1
+        }
+      ],
+      "id": 456
+    },
+    {
+      "question": "Is the annotation UI.facet an array?",
+      "answers": [
+        {
+          "text": "Yes",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nNo",
+          "valid": false,
+          "id": 1
+        }
+      ],
+      "id": 783
+    },
+    {
+      "question": "What are the options for external navigation?",
+      "answers": [
+        {
+          "text": "Navigation to Intent (As a button).",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Navigation to Intent (As a link).",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nNavigation to URL (As a button).",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Navigation to URL (As a link).",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 463
+    },
+    {
+      "question": "SAP Fiori elements support write operations if the back-end service is written by CDS working with BOPF.",
+      "answers": [
+        {
+          "text": "A\nFalse",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "True",
+          "valid": true,
+          "id": 1
+        }
+      ],
+      "id": 521
+    },
+    {
+      "question": "With which annotation do you create a smart chart?",
+      "answers": [
+        {
+          "text": "A\n@UI.smartChart",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\n@UI.smart.Chart",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "@Ui.Chart",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 812
+    },
+    {
+      "question": "The indicate criticality field should be hidden because it means nothing to the end user.",
+      "answers": [
+        {
+          "text": "A\nFalse",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "True",
+          "valid": true,
+          "id": 1
+        }
+      ],
+      "id": 726
+    },
+    {
+      "question": "Which of the following types are types of cards in an Overview Page?",
+      "answers": [
+        {
+          "text": "List Cards",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Link List Cards",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Analytic Cards",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Table Cards",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 696
+    },
+    {
+      "question": "What is the name of the standard bootstrap file recommended for typical use cases? ",
+      "answers": [
+        {
+          "text": "A\ninit-default.js",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "sap-ui-core.js",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\npreload.js",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsap-m.js",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 628
+    },
+    {
+      "question": "What kind ofdev spaceis needed to develop SAPUI5 applications?",
+      "answers": [
+        {
+          "text": "A\nBasic",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "SAP Fiori",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nSAP Mobile Application",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nFull Stack Cloud Application",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 675
+    },
+    {
+      "question": "Which JavaScript method do you need to call to define a module?",
+      "answers": [
+        {
+          "text": "A\nsap.ui.declare",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\njQuery.sap.define",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "sap.ui.define",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\njQuery.sap.require",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 161
+    },
+    {
+      "question": "What lifecycle hook method can be implemented on a view controller to perform an initial setup?",
+      "answers": [
+        {
+          "text": "A\ninit",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "onInit",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nonSetup",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsetup",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 578
+    },
+    {
+      "question": "Which view type does SAP recommend?",
+      "answers": [
+        {
+          "text": "A\nTyped view",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nJSON view",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "XML view",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 542
+    },
+    {
+      "question": "Which class is normally used as the base class when implementing an SAPUI5 view controller?",
+      "answers": [
+        {
+          "text": "A\nsap.ui.layout.Controller",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nsap.m.Controller",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nsap.ui.view.Controller",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "sap.ui.core.mvc.Controller",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 519
+    },
+    {
+      "question": "In which file is the component controller implemented?",
+      "answers": [
+        {
+          "text": "A\nmanifest.js",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nmanifest.json",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nComponent.json",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Component.js",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 258
+    },
+    {
+      "question": "To load and render a component in an HTML page, a special data attribute must be specified on the corresponding DOM element. What is the name of this marker attribute to be added?",
+      "answers": [
+        {
+          "text": "A\ndata-sap-ui-section",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\ndata-sap-ui-area",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "data-sap-ui-component",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\ndata-sap-ui-container",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 513
+    },
+    {
+      "question": "Which control is used to embed a UI component in a control tree?",
+      "answers": [
+        {
+          "text": "sap.ui.core.ComponentContainer",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nsap.ui.core.ComponentBox",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nsap.ui.core.ComponentArea",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsap.ui.core.ComponentConnector",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 691
+    },
+    {
+      "question": "Which SAPUI5 module provides the functionality to find components declared in an HTML page and create the component instances, which are then inserted into a component container?",
+      "answers": [
+        {
+          "text": "sap/ui/core/ComponentSupport",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nsap/ui/core/ComponentAPI",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nsap/ui/core/ComponentMarkup",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsap/ui/core/ComponentModule",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 413
+    },
+
+    {
+      "question": "Which of the following are SAPUI5 CSS classes used to trigger specific content densities?",
+      "answers": [
+        {
+          "text": "sapUiSizeCompact",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nsapUiSizeTouch",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "sapUiSizeCozy",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nsapUiSizeDesktop",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 240
+    },
+    {
+      "question": "Which of the following hierarchies represents the control tree of a typical SAPUI5 application?",
+      "answers": [
+        {
+          "text": "A\nComponentContainer → Page → XMLView → Shell → App → XmlView",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "ComponentContainer → XMLView → Shell → App → XMLView → Page",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nComponentContainer → Shell → XMLView → App → XMLView → Page",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nComponentContainer → App → XMLView → Shell → XMLView → Page",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 151
+    },
+    {
+      "question": "Which of the following are SAPUI5 controls provided for implementing forms?",
+      "answers": [
+        {
+          "text": "sap.ui.layout.form.Form",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "sap.ui.layout.form.SimpleForm",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nsap.ui.layout.form.BasicForm",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsap.ui.layout.Form",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 352
+    },
+
+    {
+      "question": "Which fragment types does SAPUI5 provide?",
+      "answers": [
+        {
+          "text": "JavaScript fragments",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "HTML fragments",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "XML fragments",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nJSON fragments",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 22
+    },
+    {
+      "question": "Which of the following method calls can be used to instantiate a fragment in a view controller?",
+      "answers": [
+        {
+          "text": "A\nthis.load()",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "this.loadFragment()",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nthis.createFragment()",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nthis.getFragment()",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 55
+    },
+    {
+      "question": "You have created a device model with the namedevicefor an SAPUI5 component. You want a button on an XML view in this component to be visible only when the application is not running on a desktop. Which of the following is the correct implementation for this desired behavior?",
+      "answers": [
+        {
+          "text": "A\n<Button visible=\"!{device>/system/desktop}\" />",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "<Button visible=\"{= !${device>/system/desktop}}\" />",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\n<Button visible=\"{ !${device>/system/desktop}}\" />",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\n<Button visible=\"{ !${device>system/desktop}}\" />",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "E\n<Button visible=\"{device>/system/desktop}\" />",
+          "valid": false,
+          "id": 4
+        },
+        {
+          "text": "F\n<Button visible=\"{= !${device>system/desktop}}\" />",
+          "valid": false,
+          "id": 5
+        }
+      ],
+      "id": 349
+    },
+    {
+      "question": "You want to enable a button on an XML view only if the model propertyDiscount(binding path/Discount) has a value of 0 and the model propertyAge(binding path/Age) has a value greater than 18. The model used has the namecustomer. - Which of the following is the correct implementation using expression binding?",
+      "answers": [
+        {
+          "text": "A\n<Button enabled=\"{= ${customer>Discount}=== 0 &amp;&amp; ${customer>Age}> 18 }\" />",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "<Button enabled=\"{= ${customer>/Discount}=== 0 &amp;&amp; ${customer>/Age}> 18 }\" />",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\n<Button enabled=\"{= ${customer>/Discount}=== 0 && ${customer>/Age}> 18 }\" />",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\n<Button enabled=\"{ ${customer>/Discount}=== 0 && ${customer>/Age} > 18 }\" />",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "E\n<Button enabled=\"{= {customer>/Discount}=== 0 &amp;&amp; {customer>/Age}> 18 }\" />",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 724
+    },
+    {
+      "question": "What is the name of the event fired by asap.m.Tablewhen the selection is changed via user interaction?",
+      "answers": [
+        {
+          "text": "selectionChange",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nitemChange",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nselectedItem",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nitemSelected",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 904
+    },
+    {
+      "question": "Which of the following functionalities are provided by the simple types delivered with SAPUI5?",
+      "answers": [
+        {
+          "text": "A\nReporting error messages on the UI",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Formatting model data for the UI",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Parsing user input",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Validating user input",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 781
+    },
+    {
+      "question": "Which of the following are predefined model types in SAPUI5?",
+      "answers": [
+        {
+          "text": "A\nOData V3 model",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "XML model",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Resource model",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nHTML model",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 112
+    },
+    {
+      "question": "Which statements about sorting are correct?",
+      "answers": [
+        {
+          "text": "Sorters are objects of thesap.ui.model.Sorterclass.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "To sort data for initial display, thesorterproperty is used in the complex binding syntax.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nElement binding can be used to specify sort criteria for the initial display of the data.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nWhen sorting manually via the API, exactly one sorter object can be set at a time.",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "E\nTo sort data manually using the API, thesortermethod of the corresponding binding object is called.",
+          "valid": false,
+          "id": 4
+        }
+      ],
+      "id": 937
+    },
+    {
+      "question": "Which binding types does SAPUI5 provide?",
+      "answers": [
+        {
+          "text": "A\nAttribute binding",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Property binding",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Element binding",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nTable binding",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "E\nEntity binding",
+          "valid": false,
+          "id": 4
+        },
+        {
+          "text": "Aggregation binding",
+          "valid": true,
+          "id": 5
+        }
+      ],
+      "id": 332
+    },
+    {
+      "question": "What is the default binding mode of a JSON model?",
+      "answers": [
+        {
+          "text": "A\nOne-time",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nOne-way",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Two-way",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 149
+    },
+    {
+      "question": "Which statements about filtering are correct?",
+      "answers": [
+        {
+          "text": "A\nWhen filtering manually via the API, exactly one filter object can be set at a time.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nElement binding can be used to specify filter criteria for the initial display of the data.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "To filter data manually using the API, thefiltermethod of the corresponding binding object is called.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nTo filter data for initial display, thefilterproperty is used in the complex binding syntax.",
+          "valid": false,
+          "id": 3
+        },
+        {
+          "text": "Filters are objects of thesap.ui.model.Filterclass.",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 315
+    },
+    {
+      "question": "Which property in the complex binding syntax is used to specify a formatter function for the data binding?",
+      "answers": [
+        {
+          "text": "A\nformatOptions",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\npath",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "formatter",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\ntype",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 900
+    },
+    {
+      "question": "Which parameter is used to pass the SAPUI5 module name of the base.propertiesfile to aResourceModel?",
+      "answers": [
+        {
+          "text": "A\nurl",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "bundleName",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nbundle",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nbundleUrl",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 540
+    },
+    {
+      "question": "What options does SAPUI5 provide to access texts from a resource bundle in an application?",
+      "answers": [
+        {
+          "text": "Modulesap/base/i18n/ResourceBundle",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Data binding via a resource model",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nAggregation binding",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nModulesap/base/i18n/ResourceModel",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 446
+    },
+    {
+      "question": "You have created a resource model for an SAPUI5 component using neither thesupportedLocalesparameter nor thefallbackLocaleparameter. Assume that SAPUI5 determinesde_DEas the locale for the application at runtime. In this case, which is the locale fallback chain used by SAPUI5 when loading resource bundle files (where \"\" stands for the raw file)?",
+      "answers": [
+        {
+          "text": "A\n\"de_DE\" → \"de\" → \"\" → \"en\"",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "\"de_DE\" → \"de\" → \"en\" → \"\"",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\n\"de_DE\" → \"de\" → \"\"",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\n\"de\" → \"de_DE\" → \"\"",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 210
+    },
+    {
+      "question": "Which OData versions does SAPUI5 currently support?",
+      "answers": [
+        {
+          "text": "OData v4",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "OData v2",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nOData v3",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nOData v1",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 840
+    },
+    {
+      "question": "You develop an SAPUI5 component with an OData v4 model. The entity setUX_Customerfrom the consumed OData service is displayed on an XML view of this component via asap.m.Table. Create requests based on the list binding for this table should be sent directly to the server without batch. Which of the following bindings do you use to achieve this?",
+      "answers": [
+        {
+          "text": "A\n<Table items=\"{path: '/UX_Customer', $$updateGroupId: '$direct'}\">",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\n<Table items=\"{/UX_Customer}\">",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\n<Table items=\"{path: '/UX_Customer', updateGroupId: '$direct'}\">",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "<Table items=\"{path: '/UX_Customer', parameters: {$$updateGroupId: '$direct'}}\">",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 197
+    },
+    {
+      "question": "Which of the following are valid SAPUI5 Group IDs?",
+      "answers": [
+        {
+          "text": "A\n$api",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "$direct",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\n$batch",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "$auto",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 548
+    },
+    {
+      "question": "What binding mode does the OData v4 model use by default?",
+      "answers": [
+        {
+          "text": "A\nOne-time",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Two-way",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nOne-way",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 522
+    },
+    {
+      "question": "The router provides a method to navigate to a specific route. What is the name of this method?",
+      "answers": [
+        {
+          "text": "navTo",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\ndisplay",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\ngoTo",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsetRoute",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 681
+    },
+    {
+      "question": "You have created aBackbutton on a view and call thegetPreviousHashmethod of thesap.ui.core.routing.Historyinstance in the implementation of the attached event handler. What value does this method return if there has been no navigation in the application yet?",
+      "answers": [
+        {
+          "text": "undefined",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nnull",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\n\"\"(empty string)",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nThe pattern from the routing configuration that was assigned to the root view of the component.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 799
+    },
+    {
+      "question": "In the routing configuration, one or more targets can be specified to be displayed if no route of the router matches after changing the hash. What is the name of the property used to specify the corresponding targets?",
+      "answers": [
+        {
+          "text": "A\ninvalidHash",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "bypassed",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\ndefaultTarget",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nnoMatch",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 63
+    },
+    {
+      "question": "You have specified\"detail/{customerId}\"in the routing configuration as the value for thepatternproperty of a route. Which of the following URL hashes match this pattern of the route and therefore result in thepatternMatchedevent being fired?",
+      "answers": [
+        {
+          "text": "A\ndetail/456/Orders",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "detail/(00505604-4e85-1edd-818f-21e64b9cd2cf)",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "detail/abc",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "/detail/456",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "detail/456",
+          "valid": true,
+          "id": 4
+        },
+        {
+          "text": "F\ndetail/",
+          "valid": false,
+          "id": 5
+        },
+        {
+          "text": "G\ndetail",
+          "valid": false,
+          "id": 6
+        }
+      ],
+      "id": 182
+    },
+    {
+      "question": "The component controllerComponent.jshas a method calledinitin which initializations necessary for the component are implemented. Which of the following method calls must be added to thisinitmethod so that the current URL hash is evaluated and the corresponding views are automatically displayed?",
+      "answers": [
+        {
+          "text": "this.getRouter().initialize();",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nthis.getRouter().registerRoutes();",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nthis.getRouter().setup();",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nthis.getRouter().init();",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 884
+    },
+    {
+      "question": "In the application descriptormanifest.jsonthe routing configuration can be found in theroutingproperty of thesap.ui5namespace. What are the sections that make up this routing configuration?",
+      "answers": [
+        {
+          "text": "A\nhashes",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nrouter",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "targets",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "routes",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "config",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 622
+    },
+    {
+      "question": "Which of the following events are to be implemented in the detailed view controller ?",
+      "answers": [
+        {
+          "text": "A\nonSelectionChange",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "_onBindingChange",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "onNavBack",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nonPress",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 386
+    },
+    {
+      "question": "In the main view, which function is used to navigate to the detailed page ?",
+      "answers": [
+        {
+          "text": "A\nthis.getRouter().attachRouteMatched(…)",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nthis.getRouter().getRoute(…).attachMatched(…)",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "this.getRouter().navTo()",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 369
+    },
+    {
+      "question": "what is the recommended design for views in a full-screen application ?",
+      "answers": [
+        {
+          "text": "A\nOne XML file for the main view, containing the sap.m.App root control, and one for each of the remaining pages.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nOne XML file containing the sap.m.App root control and its pages.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "One XML file for the sap.m.App root control and one for each of the pages.",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 94
+    },
+    {
+      "question": "Where do you define the routes for your application ?",
+      "answers": [
+        {
+          "text": "In the manifest.jsonfile",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nIn the root view file.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nIn the component.jsfile",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 707
+    },
+    {
+      "question": "which of those elements are part of the routingconfiguration ?",
+      "answers": [
+        {
+          "text": "config",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nrootView",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\npages",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "routes",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "targets",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 450
+    },
+    {
+      "question": "From which control does the sap.m.App control inherit navigation capabilities?",
+      "answers": [
+        {
+          "text": "A\nsap.m.NavigationContainer",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "sap.m.NavContainer",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nsap.ui.core.NavContainer",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 614
+    },
+    {
+      "question": "On a phone device, the selection should be through the item (list mode \"None\", list item type \"Active\"), otherwise it should be through the List itself (list mode \"SingleSelectMaster\", list item type \"Inactive\").",
+      "answers": [
+        {
+          "text": "True",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nFalse",
+          "valid": false,
+          "id": 1
+        }
+      ],
+      "id": 12
+    },
+    {
+      "question": "What is the difference when implementing navigation in a list-detail application compared to a full-screen application ?",
+      "answers": [
+        {
+          "text": "Navigation is implemented in the same way, but extended withsap.f.FlexibleColumnLayout controls.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nThere are no differences.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nNavigation is implemented differently, using thesap.f.FlexibleColumnLayout controls.",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 512
+    },
+    {
+      "question": "Which differences are there when implementing routing configuration for a list-detail application compared to a full-screen application ?",
+      "answers": [
+        {
+          "text": "A\nFor list-detail applications, the targets need a transition property to specify how you transition from one view to the other.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "For list-detail applications, the controlid property of the config parameter is the id of the FlexibleColumnLayout control.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "For list-detail applications, the targets need a controlAggregation property to specify the exact display location of the view.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nFor list-detail applications, you don't need to specify a NotFound view.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 757
+    },
+    {
+      "question": "When is the use of a list-detail pattern not recommended?",
+      "answers": [
+        {
+          "text": "When you want offer complex filters for the master list of items.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "When you want to display different facets of the same object, data, or both.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nWhen you want to display a single object.",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 186
+    },
+    {
+      "question": "What are the two controls that can be used to implement list-detail views ?",
+      "answers": [
+        {
+          "text": "A sap.f.DynamicPage for the list view and a sap.uxap.ObjectPageLayout for the details view.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nA sap.f.FlexibleColumnLayout for the list view and a sap.uxap.ObjectPageLayout for the details view.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nA sap.f.DynamicPage for the list view and a sap.f.FlexibleColumnLayout for the details view.",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 759
+    },
+    {
+      "question": "Which methods should be implemented in the ListSelector ?",
+      "answers": [
+        {
+          "text": "A method to try and select a list item using the passed binding path.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nA method to display an error message in case of invalid entry.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "A method to pass the reference of the list control, to set the list on which the other functions will be invoked.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "A method to remove selections from the list - for example, when an invalid hash is provided.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 268
+    },
+    {
+      "question": "What is the main control used to implement a list-detail application ?",
+      "answers": [
+        {
+          "text": "A\nsap.ui.layout.VerticalLayout",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nsap.f.DynamicPage",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nsap.ui.layout.HorizontalLayout",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "sap.f.FlexibleColumnLayout",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 784
+    },
+    {
+      "question": "Where can you find the device JSON Model that the SAPUI5 template of SAP Business Application Studio provides ?",
+      "answers": [
+        {
+          "text": "In the models.jsfile",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nIn the manifest.jsonfile",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nIn the component.jsfile",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 323
+    },
+    {
+      "question": "How can a renderer access the associated elements?",
+      "answers": [
+        {
+          "text": "SAPUI5 provides functions to access all properties, associations, and aggregations.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nThe developer must implement an appropriate function to access the elements.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nThe developer must define a property method in the control metadata and declare the access control.",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 86
+    },
+    {
+      "question": "Which of the following statements are true with regard to implementing your own renderer?",
+      "answers": [
+        {
+          "text": "Assign a reference to the renderer property of the UI control.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Implement a renderer class, derived from sap.ui.core.Renderer, in a separate file.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nImplement the render function inside the control.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Implement the renderer using AMD syntax.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 26
+    },
+    {
+      "question": "Which function must be called inside a control renderer to add the control ID to the DOM tree and support eventing?",
+      "answers": [
+        {
+          "text": "A\nwriteIcon",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nwriteClasses",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "writeControlData",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nwrite",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 223
+    },
+    {
+      "question": "Which file contains the initialization code for the UI library?",
+      "answers": [
+        {
+          "text": "A\nlibrary.load.js",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "library.js",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nloadlibrary.js",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nlib.dll",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 87
+    },
+    {
+      "question": "You want to define a property with the name width to enhance a standard UI5 control. The property should hold the current width of the UI control. What is the best approach to defining the type of such a property?",
+      "answers": [
+        {
+          "text": "A\nDefine the property width of the type sap.ui.core.type.CSSSize.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nDefine the property width of the typesap.ui.core.Integer.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Define the property width of the type sap.ui.core.CSSSize.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nDefine the property width of the type string.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 36
+    },
+    {
+      "question": "Which of the following aspects are true for an SAPUI5 UI element?",
+      "answers": [
+        {
+          "text": "A UI element does not have a renderer.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nA UI element has a renderer.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "A UI element can have events.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "A UI element has an API.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 557
+    },
+    {
+      "question": "What is the base class for all UI controls in SAPUI5?",
+      "answers": [
+        {
+          "text": "sap.ui.core.Control",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nsap.ui.Control",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nsap.ui.Element",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "D\nsap.ui.base.Control",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 158
+    },
+    {
+      "question": "What method is called inside the library.js file?",
+      "answers": [
+        {
+          "text": "A\nsap.ui.getCore().registerLibrary",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nsap.ui.getCore().loadLibrary",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "sap.ui.getCore().initLibrary",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nsap.ui.getCore().runLibrary",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 860
+    },
+    {
+      "question": "Which of the following statements are true with regard to OPA5?",
+      "answers": [
+        {
+          "text": "Can be used for SAPUI5 integration tests.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nIs a view controller test framework.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Can be used for user interaction tests.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Provides the possibility to test navigation.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 780
+    },
+    {
+      "question": "Does QUnit support SAPUI5 view tests?",
+      "answers": [
+        {
+          "text": "A\nYou can use the QUnit-extensions, called Selenium, to test SAPUI5 controls.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "No, for UI tests you must use OPA5.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nYes, you can implement a test class to test UI aspects of SAPUI5.",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 93
+    },
+    {
+      "question": "Which of the following statements are true with respect to QUnit?",
+      "answers": [
+        {
+          "text": "QUnit is a JavaScript unit and integration test framework.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Is capable of testing any generic JavaScript code.",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Supports asynchronous tests out-of-the-box.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nSupports only synchronous testing out of the box.",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 427
+    },
+    {
+      "question": "Where do you define the column list of a smartTable ?",
+      "answers": [
+        {
+          "text": "A\nIn a smartFieldaggregation",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nIn a smartFormaggregation",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nIn a UI.DataFieldannotation",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "In a UI.LineItemannotation",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 638
+    },
+
+    {
+      "question": "Which of the following are the main states of a file in GIT?",
+      "answers": [
+        {
+          "text": "Modified",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "Changed",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "C\nReleased",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Committed",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 20
+    },
+    {
+      "question": "In which state are the files in GIT when a remote repository is cloned for the first time?",
+      "answers": [
+        {
+          "text": "A\nStaged and modified",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nTracked and staged",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Tracked and unmodified",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nModified and tracked",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 979
+    },
+    {
+      "question": "What is a GIT branch?",
+      "answers": [
+        {
+          "text": "A\nA GIT branch represents a local working copy of the main development line.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nA GIT branch is the SAP implementation of GIT.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nA GIT branch always represents the main development line.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "A GIT branch represents an independent line of development.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 667
+    },
+    {
+      "question": "Which of the following best describes a commit?",
+      "answers": [
+        {
+          "text": "A\nA commit in GIT is a local operation.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nWith every commit, GIT create a new branch.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nWith every commit, a new local repository is created.",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "With every commit, GIT takes a snapshot of the current state of the underlying files.",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 460
+    },
+    {
+      "question": "Which of the following statements are true about the merge functionality in GIT?",
+      "answers": [
+        {
+          "text": "A\nA merge deletes the content of a branch.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nAllows the merging of two local branches into one local branch.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Allows integration of a branch into another branch.",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 796
+    },
+    {
+      "question": "Why is it advisable to not use a custom CSS file in your SAP UI5 applications?",
+      "answers": [
+        {
+          "text": "Having one central design created with the theme designer is very efficient. When something needs to be changed at the client interface, it is easier to handle.",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nTime spent designing modified CSS is expensive.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nSAPUI5 has problems with custom CSS.",
+          "valid": false,
+          "id": 2
+        }
+      ],
+      "id": 172
+    },
+    {
+      "question": "What is the idea behind the golden rule of having one common UX?",
+      "answers": [
+        {
+          "text": "A\nHaving a common UX reduces development costs.",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nHaving a common UX reduces the overall total cost of ownership.",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Having a common UX reduces training costs and increases the quality of data.",
+          "valid": true,
+          "id": 2
+        }
+      ],
+      "id": 357
+    },
+    {
+      "question": "Which of the following should you avoid with regard to the golden rule \"Every SAP Fiori app must run as a web app\"?",
+      "answers": [
+        {
+          "text": "A\nUsing SAPUI5",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "Use of platform-specific functionality without availability check",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "Absolute URLs generated in front or back-end.",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Calling UI2 services directly instead of using APIs",
+          "valid": true,
+          "id": 3
+        },
+        {
+          "text": "Hard dependencies between apps",
+          "valid": true,
+          "id": 4
+        }
+      ],
+      "id": 486
+    },
+    {
+      "question": "You use the flexible-column layout when you want to split a single object into multiple columns, or display only a small amount of information.",
+      "answers": [
+        {
+          "text": "A\nTrue",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "False",
+          "valid": true,
+          "id": 1
+        }
+      ],
+      "id": 235
+    },
+    {
+      "question": "What ways are there, of extending or modifying a SAPUI5 view?",
+      "answers": [
+        {
+          "text": "A\nView enhancement",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "View extension",
+          "valid": true,
+          "id": 1
+        },
+        {
+          "text": "View replacement",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "View modification",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 564
+    },
+    {
+      "question": "What UI control can be used to define a hook to extend an application?",
+      "answers": [
+        {
+          "text": "A\nsap.m.Extend",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nsap.comp.ExtendControl",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "sap.ui.core.ExtensionPoint",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "D\nsap.ui.core.Extend",
+          "valid": false,
+          "id": 3
+        }
+      ],
+      "id": 29
+    },
+    {
+      "question": "In a SAP Fiori Launchpad catalog, the target application is specified in the tile definition.",
+      "answers": [
+        {
+          "text": "True",
+          "valid": true,
+          "id": 0
+        },
+        {
+          "text": "B\nFalse",
+          "valid": false,
+          "id": 1
+        }
+      ],
+      "id": 411
+    },
+    {
+      "question": "Which element is responsible for providing all relevant services like personalization or navigation to applications that are executed inside the SAP Fiori Launchpad ?",
+      "answers": [
+        {
+          "text": "A\nApplication Container",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nRuntime Configuration",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "C\nSAP Web Dispatcher",
+          "valid": false,
+          "id": 2
+        },
+        {
+          "text": "Shell Container",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 613
+    },
+    {
+      "question": "What information is passed to the Cross Application Navigation service to define the target application ?",
+      "answers": [
+        {
+          "text": "A\nApplication URL",
+          "valid": false,
+          "id": 0
+        },
+        {
+          "text": "B\nApplication ID",
+          "valid": false,
+          "id": 1
+        },
+        {
+          "text": "Semantic Object",
+          "valid": true,
+          "id": 2
+        },
+        {
+          "text": "Action",
+          "valid": true,
+          "id": 3
+        }
+      ],
+      "id": 11
+    }
+  ]
+}

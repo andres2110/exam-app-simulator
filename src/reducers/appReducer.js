@@ -1,4 +1,4 @@
-import { ACTIONS, STATES } from "@/constants";
+import { ACTIONS, STATES, createTests, removeDuplicates } from "@/constants";
 import data from "../../mocks/data_questions.json";
 // import data from "../../mocks/data_with_answers.json";
 // const questions = data.data.map((q) => {
@@ -7,19 +7,33 @@ import data from "../../mocks/data_questions.json";
 //     status: STATES.normal,
 //   };
 // });
+let aTotalQuestion = [];
+Object.keys(data).forEach((t) => {
+  aTotalQuestion = aTotalQuestion.concat(data[t]);
+});
+let { aReturn } = removeDuplicates(aTotalQuestion);
+let oTests = createTests(aReturn, 40);
 
 export const initialState = {
   currentQuestion: 0,
   questions: [],
   passedQuestions: [],
   errorQuestions: [],
-  tests: data,
+  tests: oTests,
   currentTest: "",
+  searchText: "",
 };
 
 export const AppReducer = (state, action) => {
-  const { type, id, status, test } = action;
+  const { type, id, status, test, text } = action;
   switch (type) {
+    case ACTIONS.search:
+      
+      return {
+        ...state,
+        searchText: text,
+      };
+
     case ACTIONS.move:
       return {
         ...state,
@@ -33,23 +47,24 @@ export const AppReducer = (state, action) => {
         errorQuestions: fnGetDataLS(state.currentTest, STATES.error),
       };
     case ACTIONS.test:
-      let aQuestions = state.tests;
+      let aTest = state.tests;
       let aQuestionsTmp = [];
       if (test === "allTest") {
         Object.keys(state.tests).forEach((t) => {
           let aQuestionsId = fnGetDataLS(t, STATES.error);
-          aQuestionsTmp = aQuestionsTmp.concat(aQuestions[t].filter((q) => aQuestionsId.includes(q.id)));
+          aQuestionsTmp = aQuestionsTmp.concat(aTest[t].filter((q) => aQuestionsId.includes(q.id)));
         });
         aQuestionsTmp = aQuestionsTmp.map((q, index) => ({
           ...q,
           id: index,
         }));
       }
-      aQuestions = test === "allTest" ? aQuestionsTmp : aQuestions[test];
+      aTest = test === "allTest" ? aQuestionsTmp : aTest[test];
       return {
         ...state,
+        currentQuestion: aTest[0].id,
         currentTest: test,
-        questions: aQuestions,
+        questions: aTest,
         errorQuestions: fnGetDataLS(test, STATES.error),
         passedQuestions: fnGetDataLS(test, STATES.passed),
       };
