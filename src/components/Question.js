@@ -57,11 +57,11 @@ export const Question = React.memo(() => {
   };
   const iQuestion = oQuestion.id + 1;
   return (
-    <div className=" flex-col w-5/6 p-11">
-      <div className="h-3/4">
+    <div className=" flex-col w-5/6 p-11 h-screen">
+      <div>
         <h1>Question {iQuestion}</h1>
         <p> {oQuestion.question}</p>
-        {sImg && <img src={sImg} className="w-200" />}
+        {sImg && <img src={sImg} className="w-150" />}
         <p className="text-gray-600">{aCorret.length} Respuestas correctas </p>
         <div className="ml-10">
           {oQuestion.answers.map((answer) => (
@@ -77,15 +77,20 @@ export const Question = React.memo(() => {
           ))}
         </div>
       </div>
-      <button className="bg-black text-white border-2    border-white" onClick={() => fnSetAnswers(aCorret)}>
-        Ver respuestas
-      </button>
-      <button className="bg-green-600 ml-6" onClick={() => fnRefresh()}>
-        Refrescar
-      </button>
-      <button className="bg-yellow-400 ml-6" onClick={fnValidate}>
-        Validar
-      </button>
+      <div>
+        <button
+          className="bg-black text-white border-2    border-white"
+          onClick={() => fnSetAnswers(aCorret)}
+        >
+          Ver respuestas
+        </button>
+        <button className="bg-green-600 ml-6" onClick={() => fnRefresh()}>
+          Refrescar
+        </button>
+        <button className="bg-yellow-400 ml-6" onClick={fnValidate}>
+          Validar
+        </button>
+      </div>
       {sMessage.length > 0 && <p className={bError ? "text-red-600" : "text-green-500"}>{sMessage}</p>}
       <div className="m-10 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <button className="bg-red-300" onClick={() => fnMove("prev")}>

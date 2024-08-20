@@ -21,17 +21,21 @@ export const initialState = {
   errorQuestions: [],
   tests: oTests,
   currentTest: "",
+  results: [],
   searchText: "",
+  currentPage: "",
 };
 
 export const AppReducer = (state, action) => {
   const { type, id, status, test, text } = action;
   switch (type) {
     case ACTIONS.search:
-      
+      const result = fnSearchQuestions(state.tests, text);
       return {
         ...state,
+        results: result,
         searchText: text,
+        currentPage:'search'
       };
 
     case ACTIONS.move:
@@ -67,6 +71,7 @@ export const AppReducer = (state, action) => {
         questions: aTest,
         errorQuestions: fnGetDataLS(test, STATES.error),
         passedQuestions: fnGetDataLS(test, STATES.passed),
+        currentPage: 'test',
       };
   }
 };
@@ -89,4 +94,40 @@ const fnGetDataLS = (test, object) => {
   const oStorage = JSON.parse(localStorage.getItem(test));
   if (!oStorage || oStorage[object].length === 0) return [];
   return oStorage[object];
+};
+
+const fnSearchQuestions = (obj, searchText) => {
+  const result = [];
+  const searchTextLowerCase = searchText.toLowerCase(); // Para una búsqueda no sensible a mayúsculas y minúsculas
+
+  for (const test in obj) {
+    if (obj.hasOwnProperty(test)) {
+      obj[test].forEach((item, index) => {
+        const questionLowerCase = item.question.toLowerCase();
+
+        // Verificamos si la cadena de búsqueda está en el atributo question
+        if (questionLowerCase.includes(searchTextLowerCase)) {
+          result.push({
+            test: test,
+            questionNumber: ++index,
+            text: item.question,
+          });
+        } else {
+          // Verificamos si la cadena de búsqueda está en alguno de los atributos text del array answers
+          const answerMatch = item.answers.some((answer) =>
+            answer.text.toLowerCase().includes(searchTextLowerCase)
+          );
+          if (answerMatch) {
+            result.push({
+              test: test,
+              questionNumber: ++index,
+              text: item.question,
+            });
+          }
+        }
+      });
+    }
+  }
+
+  return result;
 };
